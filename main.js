@@ -69,7 +69,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-12\">\n            <app-header></app-header>\n        </div>\n        <div class=\"col-12 mt-sm-5 mt-lg-3 border-bottom pb-3\">\n            <a class=\"navigator p-3\"routerLink=\"all\" routerLinkActive=\"active-link\">All</a>\n            <a class=\"navigator p-3\" routerLink=\"board\" routerLinkActive=\"active-link\">Board</a>\n            <a class=\"navigator p-3\"routerLink=\"graph\" routerLinkActive=\"active-link\">Graph</a>\n            <a class=\"navigator p-3\" routerLink=\"recent\" routerLinkActive=\"active-link\">Recent</a>\n        </div>\n        <router-outlet></router-outlet>\n    </div>\n</div>\n\n"
+module.exports = "<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-12\">\n            <app-header></app-header>\n        </div>\n        <div class=\"col-12 mt-5 mt-lg-3 border-bottom pb-3\">\n            <a class=\"navigator p-3\"routerLink=\"all\" routerLinkActive=\"active-link\">All</a>\n            <a class=\"navigator p-3\" routerLink=\"board\" routerLinkActive=\"active-link\">Board</a>\n            <a class=\"navigator p-3\"routerLink=\"graph\" routerLinkActive=\"active-link\">Graph</a>\n            <a class=\"navigator p-3\" routerLink=\"recent\" routerLinkActive=\"active-link\">Recent</a>\n        </div>\n        <router-outlet></router-outlet>\n    </div>\n</div>\n\n"
 
 /***/ }),
 
