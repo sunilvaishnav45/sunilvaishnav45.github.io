@@ -402,7 +402,7 @@ var AllComponent = /** @class */ (function () {
                 delete editor[collection['key']];
                 localStorage.setItem("editor", JSON.stringify(editor));
                 this.savedCollectionInDB = editor;
-                window.location.href = "/all";
+                window.location.href = "/";
             }
         }
         else {
